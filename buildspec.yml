@@ -1,0 +1,12 @@
+version: 0.2
+ 
+phases:
+  install:
+    commands:
+      - echo phases install commands start...
+  build:
+    commands:
+      - echo phases build commands start...
+artifacts:
+  files:
+    - sample1.html
