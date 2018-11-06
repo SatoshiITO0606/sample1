@@ -10,4 +10,5 @@ phases:
 artifacts:
   files:
     - buildspec.yml
+    - appspec.yml
     - sample1.html
