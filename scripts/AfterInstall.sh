@@ -1,6 +1,6 @@
 #/bin/sh
 
-chmod -R 777 dir1
+chmod -R 777 /var/www/html/dir1
 
 #/usr/bin/php artisan storage:link
 #/usr/bin/php artisan view:clear
