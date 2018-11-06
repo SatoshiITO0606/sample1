@@ -1,14 +1,22 @@
 version: 0.2
- 
 phases:
   install:
     commands:
       - echo phases install commands start...
+  pre_build:
+    commands:
+      - echo phases pre_build commands start...
   build:
     commands:
       - echo phases build commands start...
+  post_build:
+    commands:
+      - echo phases post_build commands start...
 artifacts:
   files:
     - buildspec.yml
     - appspec.yml
+    - scripts
     - sample1.html
+    - dir1/**/*
+  name: $(AWS_REGION)-$(date +%Y-%m-%d_%H:%i:%s)
