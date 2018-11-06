@@ -19,4 +19,4 @@ artifacts:
     - scripts/*
     - sample1.html
     - dir1/**/*
-  name: $(ARTIFACTS_NAME)
+  name: $ARTIFACTS_NAME
