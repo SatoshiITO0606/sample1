@@ -9,4 +9,5 @@ phases:
       - echo phases build commands start...
 artifacts:
   files:
+    - buildspec.yml
     - sample1.html
