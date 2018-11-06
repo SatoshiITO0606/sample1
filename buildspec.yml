@@ -16,7 +16,7 @@ artifacts:
   files:
     - buildspec.yml
     - appspec.yml
-    - scripts
+    - scripts/*
     - sample1.html
     - dir1/**/*
   name: $(AWS_REGION)-$(date +%Y-%m-%d_%H:%i:%s)
